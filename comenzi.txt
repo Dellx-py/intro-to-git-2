@@ -1,1 +1,23 @@
 
+
+
+## denimirea branch-ului initial main
+git config --global init.defaultbranch main
+
+## modificarea mesajului ultimului commit
+git commit --amend
+
+## pentru a pune codul pe server
+git push
+git push origin
+
+## pentru a lua codul de pe server
+git pull
+git pull origin
+
+## pentru lucru cu branch-uri
+## listarea tuturor branch-urilor
+git branch
+
+## redenumirea branch-ului curent in ce este dupa -m
+git branch -m main
